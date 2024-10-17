@@ -1,0 +1,9 @@
+from azureml.core import Workspace, Model
+
+# Load Azure ML workspace
+ws = Workspace.from_config()
+
+# Register the model in the Azure workspace
+model = Model.register(model_path="sentiment_model",
+                       model_name="sentiment_model",
+                       workspace=ws)

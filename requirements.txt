@@ -1,0 +1,10 @@
+flask
+transformers
+torch
+mlflow
+datasets
+azureml-sdk
+azure-identity
+azure-storage-blob
+azureml-core
+
